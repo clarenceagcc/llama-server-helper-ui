@@ -5,6 +5,8 @@ Uses llama-server to run the model, grab it from the main repo. THIS ONLY WORKS 
 
 Currently only made this project to handle `.gguf` since thats what i'm mainly using.
 
+![alt text](others/image.png)
+
 ## Requirements
 Cuda <br>
 Python <br>
