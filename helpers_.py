@@ -4,9 +4,6 @@ import requests
 import tkinter as tk
 from tkinter import filedialog
 
-
-
-
 def is_windows() -> bool:
     return os.name == "nt"
 
