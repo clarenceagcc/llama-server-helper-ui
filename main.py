@@ -164,7 +164,7 @@ with st.sidebar:
 
     exe_path = col1.text_input(
         "llama-server.exe path",
-        value=st.session_state.get("exe_path", r".\llama-server.exe")
+        value=st.session_state.get("exe_path")
     )
 
     if col2.button("Browse", key="browse_exe"):
@@ -180,7 +180,7 @@ with st.sidebar:
 
     model_path = col3.text_input(
         "Model (.gguf) path",
-        value=st.session_state.get("model_path", r"C:\Models\Qwen3-8B-Q4_K_M.gguf")
+        value=st.session_state.get("model_path")
     )
 
     if col4.button("Browse", key="browse_model"):
